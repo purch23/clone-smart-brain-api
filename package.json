@@ -1,0 +1,23 @@
+{
+  "name": "clone-smart-brain-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.0",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "API_KEY=YOUR_API_KEY nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
